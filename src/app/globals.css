@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
 
 :root {
-  --primary-color: '';
   --secondary-color: #0099ff;
   --thirt-color: #F2F168;
 }
@@ -23,6 +22,10 @@ h6 {
 
 textarea {
   resize: none;
+}
+
+body {
+  background-color: black;
 }
 
 .bg-secondary {
