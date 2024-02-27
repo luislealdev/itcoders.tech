@@ -33,7 +33,7 @@ export const HomeSection = () => {
       <div ref={container} className={styles.container}>
         <div ref={stickyMask} className={styles.stickyMask}>
           <video autoPlay muted loop>
-            <source src="/videos/nature.mp4" type="video/mp4" />
+            <source src="/videos/home-bg.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
