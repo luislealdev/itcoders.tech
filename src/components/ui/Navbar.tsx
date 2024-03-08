@@ -32,18 +32,18 @@ export const Navbar = () => {
                 <Link href='/contacto' className={`ph-20 p-10 radius ${pathname == '/contacto' ? 'bg-primary white-text' : 'black-text'} `}
                     onClick={() => onDisableNavbar()}
                 >Contacto</Link>
-                <Link href='/cotizar' className={`ph-20 p-10 radius ${pathname == '/cotizar' ? 'bg-primary white-text' : 'black-text' } ${ windowWidth <= 476 ? '' : 'none'}`}
+                <Link href='/cotizar' className={`ph-20 p-10 radius ${pathname == '/cotizar' ? 'bg-primary white-text' : 'black-text' } ${ windowWidth <= 768 ? '' : 'none'}`}
                     onClick={() => onDisableNavbar()}
                 >
                     Cotizar <i className="fa-solid fa-arrow-right"></i>
                 </Link>
             </div>
 
-            <div className={` center ${ enable ? 'control-enable': 'control-disable'}`} style={{ display: windowWidth <= 476 ? 'flex': 'none'}}>
+            <div className={`center ${ enable ? 'control-enable': 'control-disable'}`} style={{ display: windowWidth <= 768 ? 'flex': 'none'}}>
                 <i className={`fa-solid fa-angles-right `} onClick={ () => onDisableNavbar()}></i>
             </div>
             <Link href='' 
-                className={ windowWidth <= 476 ? "none": "bg-primary white-text ph-20 p-10 radius gap-15 flex align-center"} 
+                className={ windowWidth <= 768 ? "none": "bg-primary white-text ph-20 p-10 radius gap-15 flex align-center"} 
                 style={{ position: 'absolute', right: 100 }}>
                 Cotizar
                 <i className="fa-solid fa-arrow-right"></i>
