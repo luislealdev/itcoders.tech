@@ -49,8 +49,8 @@ export const team = [
         role: 'Developer',
         description: 'Estudiante de Ingeniería en Sistemas apasionado al desarrollo de Páginas Web e Interfaces de Usuarios.',
         img: '/assets/img/team/emmanuel-ruiz.png',
-        github: 'https://github.com/v-devOs',
-        linkedin: 'https://www.linkedin.com/in/uriel-emiliano-galindo-l%C3%B3pez-27437a274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        instagram: 'https://www.instagram.com/uriel_egl?igsh=czZrYzlqejlqaWV1',
+        github: 'https://github.com/Reh4m',
+        linkedin: 'https://mx.linkedin.com/in/emmanuel-ruiz-p%C3%A9rez-9a65a6254',
+        instagram: 'https://www.instagram.com/emma.ruiz.p?igsh=MWV2NHU3bDl0Y3l6Nw==',
     },
 ]
